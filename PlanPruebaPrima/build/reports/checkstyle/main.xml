@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.26">
+<file name="C:\Users\Lenovo\Desktop\9S\INGENIERA DE SOFTWARE 2\PlanPruebaPrima\src\main\java\PRIMAv3.java">
+<error line="9" severity="warning" message="Abbreviation in name &apos;PRIMAv3&apos; must contain no more than &apos;4&apos; consecutive capital letters." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="15" column="27" severity="warning" message="Name &apos;puntos_licencia&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="20" column="47" severity="warning" message="Name &apos;puntos_licencia&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="25" column="9" severity="warning" message="Class &apos;PRIMAv3&apos; looks like designed for extension (can be subclassed), but the method &apos;calcula_prima&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;PRIMAv3&apos; final or making the method &apos;calcula_prima&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="25" column="20" severity="warning" message="Name &apos;calcula_prima&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+</checkstyle>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.1" timestamp="2019-12-03T16:23:27.793">
+<file name="C:\Users\Lenovo\Desktop\9S\INGENIERA DE SOFTWARE 2\PlanPruebaPrima\src\main\java\PRIMAv3.java">
+<violation beginline="9" endline="71" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'PRIMAv3' has a Cyclomatic Complexity of 10 (Highest = 17).
+</violation>
+<violation beginline="9" endline="71" begincolumn="8" endcolumn="1" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The class 'PRIMAv3' has a Modified Cyclomatic Complexity of 6 (Highest = 11).
+</violation>
+<violation beginline="9" endline="71" begincolumn="8" endcolumn="1" rule="StdCyclomaticComplexity" ruleset="Code Size" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The class 'PRIMAv3' has a Standard Cyclomatic Complexity of 6 (Highest = 11).
+</violation>
+<violation beginline="10" endline="10" begincolumn="21" endcolumn="32" rule="ImmutableField" ruleset="Design" class="PRIMAv3" variable="tarifaBasica" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'tarifaBasica' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="10" endline="10" begincolumn="17" endcolumn="39" rule="CommentRequired" ruleset="Comments" class="PRIMAv3" variable="tarifaBasica" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="11" endline="11" begincolumn="21" endcolumn="48" rule="RedundantFieldInitializer" ruleset="Optimization" class="PRIMAv3" variable="reduccionConductorSeguro" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#RedundantFieldInitializer" priority="3">
+Avoid using redundant field initializer for 'reduccionConductorSeguro'
+</violation>
+<violation beginline="11" endline="11" begincolumn="17" endcolumn="49" rule="CommentRequired" ruleset="Comments" class="PRIMAv3" variable="reduccionConductorSeguro" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="12" endline="12" begincolumn="24" endcolumn="37" rule="RedundantFieldInitializer" ruleset="Optimization" class="PRIMAv3" variable="factorEdad" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#RedundantFieldInitializer" priority="3">
+Avoid using redundant field initializer for 'factorEdad'
+</violation>
+<violation beginline="12" endline="12" begincolumn="17" endcolumn="38" rule="CommentRequired" ruleset="Comments" class="PRIMAv3" variable="factorEdad" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="14" endline="14" begincolumn="23" endcolumn="40" rule="CommentRequired" ruleset="Comments" class="PRIMAv3" variable="edadConductor" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="15" endline="15" begincolumn="23" endcolumn="42" rule="CommentRequired" ruleset="Comments" class="PRIMAv3" variable="puntos_licencia" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="20" endline="20" begincolumn="24" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" class="PRIMAv3" method="PRIMAv3" variable="edadConductor" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'edadConductor' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="43" endcolumn="61" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" class="PRIMAv3" method="PRIMAv3" variable="puntos_licencia" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'puntos_licencia' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="70" begincolumn="16" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size" class="PRIMAv3" method="calcula_prima" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'calcula_prima' has a Cyclomatic Complexity of 17.
+</violation>
+<violation beginline="25" endline="70" begincolumn="16" endcolumn="9" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" class="PRIMAv3" method="calcula_prima" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The method 'calcula_prima' has a Modified Cyclomatic Complexity of 11.
+</violation>
+<violation beginline="25" endline="70" begincolumn="16" endcolumn="9" rule="StdCyclomaticComplexity" ruleset="Code Size" class="PRIMAv3" method="calcula_prima" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The method 'calcula_prima' has a Standard Cyclomatic Complexity of 11.
+</violation>
+<violation beginline="25" endline="70" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" class="PRIMAv3" method="calcula_prima" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="36" endline="36" begincolumn="25" endcolumn="34" rule="OnlyOneReturn" ruleset="Controversial" class="PRIMAv3" method="calcula_prima" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="38" endline="38" begincolumn="42" endcolumn="43" rule="AvoidLiteralsInIfCondition" ruleset="Controversial" class="PRIMAv3" method="calcula_prima" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AvoidLiteralsInIfCondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="40" endline="40" begincolumn="60" endcolumn="60" rule="AvoidLiteralsInIfCondition" ruleset="Controversial" class="PRIMAv3" method="calcula_prima" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AvoidLiteralsInIfCondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="45" endline="45" begincolumn="60" endcolumn="60" rule="AvoidLiteralsInIfCondition" ruleset="Controversial" class="PRIMAv3" method="calcula_prima" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AvoidLiteralsInIfCondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="50" endline="50" begincolumn="60" endcolumn="60" rule="AvoidLiteralsInIfCondition" ruleset="Controversial" class="PRIMAv3" method="calcula_prima" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AvoidLiteralsInIfCondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="55" endline="55" begincolumn="60" endcolumn="60" rule="AvoidLiteralsInIfCondition" ruleset="Controversial" class="PRIMAv3" method="calcula_prima" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AvoidLiteralsInIfCondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="60" endline="60" begincolumn="60" endcolumn="60" rule="AvoidLiteralsInIfCondition" ruleset="Controversial" class="PRIMAv3" method="calcula_prima" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AvoidLiteralsInIfCondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="65" endline="65" begincolumn="29" endcolumn="100" rule="LocalVariableCouldBeFinal" ruleset="Optimization" class="PRIMAv3" method="calcula_prima" variable="prima" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'prima' could be declared final
+</violation>
+<violation beginline="65" endline="65" begincolumn="49" endcolumn="71" rule="UselessParentheses" ruleset="Unnecessary" class="PRIMAv3" method="calcula_prima" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>
