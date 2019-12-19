@@ -19,7 +19,7 @@ public class PRIMAv3 {
 	 */
 	public PRIMAv3(int edadConductor, int puntos_licencia) {
 		this.edadConductor = edadConductor;
-		this.puntos_licencia = puntos_licencia;
+		this.puntos_licencia = puntos_licencia;		
 	}
 		
 	public int calcula_prima() {								

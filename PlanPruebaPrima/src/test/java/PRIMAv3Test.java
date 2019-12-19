@@ -140,8 +140,15 @@ public class PRIMAv3Test {
 		PRIMAv3 p1 = new PRIMAv3(30,-1);
 		int valor_esperado  = -1;
 		int resultado = p1.calcula_prima();
-		assertEquals(valor_esperado, resultado,0) ;
-
-			
+		assertEquals(valor_esperado, resultado,0);			
+	}
+	
+	/**Prueba nueva */
+	@Test
+	public void prima_c15() {
+		PRIMAv3 p1 = new PRIMAv3(15,-1);
+		int valor_esperado  = -1;
+		int resultado = p1.calcula_prima();
+		assertEquals(valor_esperado, resultado,0);
 	}
 }
